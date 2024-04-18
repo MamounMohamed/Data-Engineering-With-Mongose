@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-;const mongoDB = "mongodb://localhost/brands_database";
+;const mongoDB = "mongodb://localhost:27017/brands_database";
 
 
 async function transformData() {

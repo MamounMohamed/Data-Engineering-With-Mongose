@@ -8,21 +8,20 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-const mongoose_1 = require("mongoose");
-mongoose_1.mongoose.set("strictQuery", false);
-const mongoDB = "mongodb://localhost/brands_database";
+const mongoose = require('mongoose');
+;
+const mongoDB = "mongodb://localhost:27017/brands_database";
 function transformData() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            yield mongoose_1.mongoose.connect(mongoDB);
+            yield mongoose.connect(mongoDB);
             console.log('Connected to MongoDB');
         }
         catch (error) {
             console.error('Error connecting to MongoDB:', error);
         }
         finally {
-            mongoose_1.mongoose.disconnect();
+            mongoose.disconnect();
         }
     });
 }
