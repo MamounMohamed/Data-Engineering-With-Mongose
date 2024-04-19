@@ -7,10 +7,10 @@
   "headquarters": "Jastside",
   "numberOfLocations": 2132,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.799Z"
+    "$date": "2024-04-19T22:38:57.484Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.799Z"
+    "$date": "2024-04-19T22:38:57.484Z"
   },
   "__v": 0
 },
@@ -23,10 +23,10 @@
   "headquarters": "Gavinstead",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.811Z"
+    "$date": "2024-04-19T22:38:57.496Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.811Z"
+    "$date": "2024-04-19T22:38:57.496Z"
   },
   "__v": 0
 },
@@ -39,10 +39,10 @@
   "headquarters": "Fort Lenna",
   "numberOfLocations": 1000,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.813Z"
+    "$date": "2024-04-19T22:38:57.498Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.813Z"
+    "$date": "2024-04-19T22:38:57.498Z"
   },
   "__v": 0
 },
@@ -55,10 +55,10 @@
   "headquarters": "Kundebury",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.816Z"
+    "$date": "2024-04-19T22:38:57.501Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.816Z"
+    "$date": "2024-04-19T22:38:57.501Z"
   },
   "__v": 0
 },
@@ -71,10 +71,10 @@
   "headquarters": "Jonesborough",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.818Z"
+    "$date": "2024-04-19T22:38:57.503Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.818Z"
+    "$date": "2024-04-19T22:38:57.503Z"
   },
   "__v": 0
 },
@@ -87,10 +87,10 @@
   "headquarters": "Wardfort",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.820Z"
+    "$date": "2024-04-19T22:38:57.506Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.820Z"
+    "$date": "2024-04-19T22:38:57.506Z"
   },
   "__v": 0
 },
@@ -103,10 +103,10 @@
   "headquarters": "Lemkeland",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.822Z"
+    "$date": "2024-04-19T22:38:57.508Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.822Z"
+    "$date": "2024-04-19T22:38:57.508Z"
   },
   "__v": 0
 },
@@ -119,10 +119,10 @@
   "headquarters": "DuBuqueburgh",
   "numberOfLocations": 9200,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.824Z"
+    "$date": "2024-04-19T22:38:57.511Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.824Z"
+    "$date": "2024-04-19T22:38:57.511Z"
   },
   "__v": 0
 },
@@ -135,10 +135,10 @@
   "headquarters": "West Mylesboro",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.827Z"
+    "$date": "2024-04-19T22:38:57.513Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.827Z"
+    "$date": "2024-04-19T22:38:57.513Z"
   },
   "__v": 0
 },
@@ -151,10 +151,10 @@
   "headquarters": "North Ralphport",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-19T22:36:13.829Z"
+    "$date": "2024-04-19T22:38:57.516Z"
   },
   "updatedAt": {
-    "$date": "2024-04-19T22:36:13.829Z"
+    "$date": "2024-04-19T22:38:57.516Z"
   },
   "__v": 0
 }]
