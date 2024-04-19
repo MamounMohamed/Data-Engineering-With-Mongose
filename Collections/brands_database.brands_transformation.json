@@ -1,0 +1,159 @@
+[{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187086"
+  },
+  "brandName": "Ward, Hand and Ortiz",
+  "yearFounded": 1970,
+  "headquarters": "Jastside",
+  "numberOfLocations": 2132,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.874Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187088"
+  },
+  "brandName": "Ergonomic Frozen Bacon",
+  "yearFounded": 1600,
+  "headquarters": "Gavinstead",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.886Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca8318708a"
+  },
+  "brandName": "Breitenberg, Greenholt and Ledner",
+  "yearFounded": 1982,
+  "headquarters": "Fort Lenna",
+  "numberOfLocations": 1000,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca8318708c"
+  },
+  "brandName": "Modern Granite Fish",
+  "yearFounded": 1970,
+  "headquarters": "Kundebury",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.891Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.891Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca8318708e"
+  },
+  "brandName": "Gorgeous Granite Pizza",
+  "yearFounded": 1980,
+  "headquarters": "Jonesborough",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.893Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187090"
+  },
+  "brandName": "Oriental Plastic Pants",
+  "yearFounded": 1970,
+  "headquarters": "Wardfort",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.895Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187092"
+  },
+  "brandName": "Refined Granite Towels",
+  "yearFounded": 1600,
+  "headquarters": "Lemkeland",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.897Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187094"
+  },
+  "brandName": "Corkery Inc",
+  "yearFounded": 1935,
+  "headquarters": "DuBuqueburgh",
+  "numberOfLocations": 9200,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.899Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187096"
+  },
+  "yearFounded": 1600,
+  "headquarters": "West Mylesboro",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.902Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622ed15966ba8ca83187098"
+  },
+  "brandName": "Generic Cotton Pizza",
+  "yearFounded": 1600,
+  "headquarters": "North Ralphport",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-19T22:15:49.904Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T22:15:49.904Z"
+  },
+  "__v": 0
+}]
