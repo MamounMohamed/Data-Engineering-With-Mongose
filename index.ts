@@ -5,7 +5,9 @@ const fs = require('fs/promises');;
 
 const mongoDB = "mongodb://localhost:27017/brands_database";
 
-async function transformData() {
+const minDate  = 1600 , maxDate = new Date().getFullYear();
+
+async function importData() {
   try {
     // Connect to MongoDB
     await mongoose.connect(mongoDB);
@@ -15,28 +17,48 @@ async function transformData() {
 
     for (const brandData of brandsData) {
 
+      const id:string = brandData._id['$oid'];
+      
+      var transformedBrandName:string;
+      if(brandData.brandName == null && brandData.brand.name != null ){
+        transformedBrandName = brandData.brand.name;
+      }else if(brandData.brandName != null){
+        transformedBrandName = brandData.brandName;
+      }else{
+        transformedBrandName = "Default Name";
+      }
+
       var transformedYear :number ;
-      const minDate  = 1600 , maxDate = new Date().getFullYear();
       if(brandData.yearFounded != null){
         transformedYear = transform(brandData.yearFounded , minDate , maxDate);
-      }else if(brandData.yearFounded == null && brandData.yearCreated!=null){
+      }else if(brandData.yearCreated!=null){
         transformedYear = transform(brandData.yearCreated , minDate , maxDate);
-      }else{
+      }else if (brandData.yearsFounded != null){
         transformedYear = transform(brandData.yearsFounded , minDate , maxDate);
+      }else{
+        transformedYear = minDate;
       }
+      var transformedNumberOfLocations : number = 1 ;
+      if(brandData.numberOfLocations !=null)
+        transformedNumberOfLocations = transform(brandData.numberOfLocations , 1 , Number.MAX_SAFE_INTEGER);
       
-      const transformedNumberOfLocations : number = transform(brandData.numberOfLocations , 1 , Number.MAX_SAFE_INTEGER);
+
       var transformedHQ :string;
-      if(brandData.headquarters == null)
+      if(brandData.headquarters == null && brandData.hqAddress!= null )
         transformedHQ = brandData.hqAddress;
-      else 
+      else if (brandData.headquarters != null)
         transformedHQ = brandData.headquarters;
+      else 
+        transformedHQ = "Default HQ";
+
       const brand = new Brand({
-        brandName: brandData.brandName,
+        _id : id,
+        brandName: transformedBrandName,
         yearFounded: transformedYear,
         headquarters: transformedHQ,
         numberOfLocations: transformedNumberOfLocations
       });
+
       await brand.save();
     }
 
@@ -48,4 +70,4 @@ async function transformData() {
   }
 }
 
-transformData();
+importData();
