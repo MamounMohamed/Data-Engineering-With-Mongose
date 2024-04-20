@@ -17,8 +17,7 @@ This project is a data engineering task aimed at transforming and extending a Mo
 - **controllers**: Contains the business logic behind the implementation.
    - **importData.ts**: Responsible for importing the data into the database following the schema rules and apply transformations.
    - **seedData.ts**: Responsible for seeding and generating new data following the database schema
-
-
+  
 - **models**: Contains database schema definitions.
   - **brands-schema.ts**: Define the brand model and brand model schema
 
@@ -45,10 +44,8 @@ This project is a data engineering task aimed at transforming and extending a Mo
   - Update the `.env` file in the root directory of the project with your MongoDB connection string.
   -  If left without updates it will create a new database with the name Mamoun_brands_database which will work as expected.
 
-
 5. **Run the project:**
    - This will Transform , import , and seed the data into the database 
-
    ```bash
    node index.js
    
