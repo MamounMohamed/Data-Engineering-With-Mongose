@@ -7,10 +7,10 @@
   "headquarters": "Jastside",
   "numberOfLocations": 2132,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.757Z"
+    "$date": "2024-04-20T15:26:37.832Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.757Z"
+    "$date": "2024-04-20T15:26:37.832Z"
   },
   "__v": 0
 },
@@ -23,10 +23,10 @@
   "headquarters": "Gavinstead",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.766Z"
+    "$date": "2024-04-20T15:26:37.874Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.766Z"
+    "$date": "2024-04-20T15:26:37.874Z"
   },
   "__v": 0
 },
@@ -39,10 +39,10 @@
   "headquarters": "Fort Lenna",
   "numberOfLocations": 1000,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.770Z"
+    "$date": "2024-04-20T15:26:37.878Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.770Z"
+    "$date": "2024-04-20T15:26:37.878Z"
   },
   "__v": 0
 },
@@ -55,10 +55,10 @@
   "headquarters": "Kundebury",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.774Z"
+    "$date": "2024-04-20T15:26:37.882Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.774Z"
+    "$date": "2024-04-20T15:26:37.882Z"
   },
   "__v": 0
 },
@@ -71,10 +71,10 @@
   "headquarters": "Jonesborough",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.778Z"
+    "$date": "2024-04-20T15:26:37.886Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.778Z"
+    "$date": "2024-04-20T15:26:37.886Z"
   },
   "__v": 0
 },
@@ -87,10 +87,10 @@
   "headquarters": "Wardfort",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.781Z"
+    "$date": "2024-04-20T15:26:37.889Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.781Z"
+    "$date": "2024-04-20T15:26:37.889Z"
   },
   "__v": 0
 },
@@ -103,10 +103,10 @@
   "headquarters": "Lemkeland",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.784Z"
+    "$date": "2024-04-20T15:26:37.892Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.784Z"
+    "$date": "2024-04-20T15:26:37.892Z"
   },
   "__v": 0
 },
@@ -119,10 +119,10 @@
   "headquarters": "DuBuqueburgh",
   "numberOfLocations": 9200,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.787Z"
+    "$date": "2024-04-20T15:26:37.896Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.787Z"
+    "$date": "2024-04-20T15:26:37.896Z"
   },
   "__v": 0
 },
@@ -135,10 +135,10 @@
   "headquarters": "West Mylesboro",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.791Z"
+    "$date": "2024-04-20T15:26:37.901Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.791Z"
+    "$date": "2024-04-20T15:26:37.901Z"
   },
   "__v": 0
 },
@@ -151,170 +151,170 @@
   "headquarters": "North Ralphport",
   "numberOfLocations": 1,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.793Z"
+    "$date": "2024-04-20T15:26:37.904Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.793Z"
+    "$date": "2024-04-20T15:26:37.904Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea23421"
+    "$oid": "6623dead223183ddb7b09fa6"
   },
-  "brandName": "Intelligent Cotton Chips",
-  "yearFounded": 1911,
-  "headquarters": "East Grayce",
-  "numberOfLocations": 1242,
-  "createdAt": {
-    "$date": "2024-04-20T14:17:10.820Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-20T14:17:10.820Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6623ce66b35c80ed3ea23423"
-  },
-  "brandName": "Modern Plastic Chair",
-  "yearFounded": 1791,
-  "headquarters": "Fort Kyleigh",
-  "numberOfLocations": 7898,
-  "createdAt": {
-    "$date": "2024-04-20T14:17:10.825Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-20T14:17:10.825Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6623ce66b35c80ed3ea23425"
-  },
-  "brandName": "Handmade Steel Gloves",
-  "yearFounded": 1898,
-  "headquarters": "Luzberg",
-  "numberOfLocations": 8095,
-  "createdAt": {
-    "$date": "2024-04-20T14:17:10.827Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-20T14:17:10.827Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6623ce66b35c80ed3ea23427"
-  },
-  "brandName": "Elegant Concrete Towels",
+  "brandName": "Luxurious Steel Pizza",
   "yearFounded": 1810,
-  "headquarters": "Kaceystad",
-  "numberOfLocations": 5851,
+  "headquarters": "Port Lyla",
+  "numberOfLocations": 5510,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.829Z"
+    "$date": "2024-04-20T15:26:37.932Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.829Z"
+    "$date": "2024-04-20T15:26:37.932Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea23429"
+    "$oid": "6623dead223183ddb7b09fa8"
   },
-  "brandName": "Recycled Metal Ball",
+  "brandName": "Oriental Wooden Chair",
+  "yearFounded": 1745,
+  "headquarters": "West Lizziestead",
+  "numberOfLocations": 143,
+  "createdAt": {
+    "$date": "2024-04-20T15:26:37.937Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T15:26:37.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623dead223183ddb7b09faa"
+  },
+  "brandName": "Bespoke Frozen Chicken",
+  "yearFounded": 1673,
+  "headquarters": "West Bonitafield",
+  "numberOfLocations": 8283,
+  "createdAt": {
+    "$date": "2024-04-20T15:26:37.939Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T15:26:37.939Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623dead223183ddb7b09fac"
+  },
+  "brandName": "Elegant Fresh Cheese",
+  "yearFounded": 1805,
+  "headquarters": "Antwanworth",
+  "numberOfLocations": 3999,
+  "createdAt": {
+    "$date": "2024-04-20T15:26:37.941Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T15:26:37.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623dead223183ddb7b09fae"
+  },
+  "brandName": "Ergonomic Bronze Soap",
+  "yearFounded": 1688,
+  "headquarters": "East Kara",
+  "numberOfLocations": 5376,
+  "createdAt": {
+    "$date": "2024-04-20T15:26:37.943Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T15:26:37.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623dead223183ddb7b09fb0"
+  },
+  "brandName": "Bespoke Bronze Chicken",
   "yearFounded": 1943,
-  "headquarters": "Hammesburgh",
-  "numberOfLocations": 8634,
+  "headquarters": "Brycenboro",
+  "numberOfLocations": 4688,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.830Z"
+    "$date": "2024-04-20T15:26:37.944Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.830Z"
+    "$date": "2024-04-20T15:26:37.944Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea2342b"
+    "$oid": "6623dead223183ddb7b09fb2"
   },
-  "brandName": "Oriental Fresh Mouse",
-  "yearFounded": 1956,
-  "headquarters": "Boganborough",
-  "numberOfLocations": 4188,
+  "brandName": "Recycled Steel Chicken",
+  "yearFounded": 1614,
+  "headquarters": "Lubowitzberg",
+  "numberOfLocations": 927,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.832Z"
+    "$date": "2024-04-20T15:26:37.946Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.832Z"
+    "$date": "2024-04-20T15:26:37.946Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea2342d"
+    "$oid": "6623dead223183ddb7b09fb4"
   },
-  "brandName": "Bespoke Steel Cheese",
-  "yearFounded": 1996,
-  "headquarters": "Marquardtboro",
-  "numberOfLocations": 6041,
+  "brandName": "Incredible Fresh Hat",
+  "yearFounded": 1829,
+  "headquarters": "Xanderfort",
+  "numberOfLocations": 7100,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.834Z"
+    "$date": "2024-04-20T15:26:37.947Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.834Z"
+    "$date": "2024-04-20T15:26:37.947Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea2342f"
+    "$oid": "6623dead223183ddb7b09fb6"
   },
-  "brandName": "Ergonomic Plastic Pizza",
-  "yearFounded": 2004,
-  "headquarters": "Rockwall",
-  "numberOfLocations": 4708,
+  "brandName": "Modern Steel Mouse",
+  "yearFounded": 1636,
+  "headquarters": "Lake Thaddeushaven",
+  "numberOfLocations": 6866,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.836Z"
+    "$date": "2024-04-20T15:26:37.948Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.836Z"
+    "$date": "2024-04-20T15:26:37.948Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6623ce66b35c80ed3ea23431"
+    "$oid": "6623dead223183ddb7b09fb8"
   },
-  "brandName": "Small Frozen Soap",
-  "yearFounded": 1772,
-  "headquarters": "Port Trever",
-  "numberOfLocations": 1450,
+  "brandName": "Small Frozen Chair",
+  "yearFounded": 1932,
+  "headquarters": "Califurt",
+  "numberOfLocations": 2674,
   "createdAt": {
-    "$date": "2024-04-20T14:17:10.838Z"
+    "$date": "2024-04-20T15:26:37.950Z"
   },
   "updatedAt": {
-    "$date": "2024-04-20T14:17:10.838Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6623ce66b35c80ed3ea23433"
-  },
-  "brandName": "Refined Metal Sausages",
-  "yearFounded": 1768,
-  "headquarters": "Howellbury",
-  "numberOfLocations": 652,
-  "createdAt": {
-    "$date": "2024-04-20T14:17:10.839Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-20T14:17:10.839Z"
+    "$date": "2024-04-20T15:26:37.950Z"
   },
   "__v": 0
 }]
