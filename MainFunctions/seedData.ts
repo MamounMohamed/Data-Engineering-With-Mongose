@@ -1,8 +1,11 @@
 import mongoose from 'mongoose';
 import { Brand } from '../Schema/brands-schema';
 import { faker } from '@faker-js/faker';
+import dotenv from 'dotenv';
 
-const mongoDB = "mongodb://localhost:27017/brands_database";
+dotenv.config();
+
+const mongoDB = process.env.MONGODB_URI || "mongodb://localhost:27017/brands_database";
 const maxDate = new Date().getFullYear();
 
 function getRandomNumber(min: number, max: number): number {

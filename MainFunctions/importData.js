@@ -17,7 +17,9 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const brands_schema_1 = require("../Schema/brands-schema");
 const transformer_1 = require("../Filters/transformer");
 const promises_1 = require("fs/promises");
-const mongoDB = "mongodb://localhost:27017/brands_database";
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
+const mongoDB = process.env.MONGODB_URI || "mongodb://localhost:27017/brands_database";
 const minDate = 1600;
 const maxDate = new Date().getFullYear();
 function importData() {

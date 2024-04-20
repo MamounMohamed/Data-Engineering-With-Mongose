@@ -2,8 +2,12 @@ import mongoose from 'mongoose';
 import { Brand } from '../Schema/brands-schema';
 import { transform } from '../Filters/transformer';
 import { readFile } from 'fs/promises';
+import dotenv from 'dotenv';
 
-const mongoDB = "mongodb://localhost:27017/brands_database";
+dotenv.config();
+
+
+const mongoDB = process.env.MONGODB_URI || "mongodb://localhost:27017/brands_database";
 const minDate = 1600;
 const maxDate = new Date().getFullYear();
 
