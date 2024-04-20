@@ -10,10 +10,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const importData_1 = require("./MainFunctions/importData");
+const seedData_1 = require("./MainFunctions/seedData");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             yield (0, importData_1.importData)();
+            yield (0, seedData_1.generateSeedData)(10);
         }
         catch (error) {
             console.error('An error occurred:', error);

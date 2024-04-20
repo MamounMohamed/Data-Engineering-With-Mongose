@@ -30,6 +30,11 @@ function importData() {
             const brandsData = JSON.parse(jsonData);
             for (const brandData of brandsData) {
                 const id = brandData._id['$oid'];
+                const existingBrand = yield brands_schema_1.Brand.findById(id);
+                if (existingBrand) {
+                    console.log(`document already exists`);
+                    continue;
+                }
                 const transformedBrandName = (_a = brandData.brandName) !== null && _a !== void 0 ? _a : ((_c = (_b = brandData.brand) === null || _b === void 0 ? void 0 : _b.name) !== null && _c !== void 0 ? _c : "Default Name");
                 const transformedYear = (0, transformer_1.transform)((_e = (_d = brandData.yearFounded) !== null && _d !== void 0 ? _d : brandData.yearCreated) !== null && _e !== void 0 ? _e : brandData.yearsFounded, minDate, maxDate);
                 const transformedNumberOfLocations = (0, transformer_1.transform)((_f = brandData.numberOfLocations) !== null && _f !== void 0 ? _f : 1, 1, Number.MAX_SAFE_INTEGER);

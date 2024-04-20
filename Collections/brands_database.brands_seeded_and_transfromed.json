@@ -1,0 +1,320 @@
+[{
+  "_id": {
+    "$oid": "66069ff93007b006635c0245"
+  },
+  "brandName": "Ward, Hand and Ortiz",
+  "yearFounded": 1970,
+  "headquarters": "Jastside",
+  "numberOfLocations": 2132,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.416Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0246"
+  },
+  "brandName": "Ergonomic Frozen Bacon",
+  "yearFounded": 1600,
+  "headquarters": "Gavinstead",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.423Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0247"
+  },
+  "brandName": "Breitenberg, Greenholt and Ledner",
+  "yearFounded": 1982,
+  "headquarters": "Fort Lenna",
+  "numberOfLocations": 1000,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.427Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0248"
+  },
+  "brandName": "Modern Granite Fish",
+  "yearFounded": 1970,
+  "headquarters": "Kundebury",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.431Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c0249"
+  },
+  "brandName": "Gorgeous Granite Pizza",
+  "yearFounded": 1980,
+  "headquarters": "Jonesborough",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.435Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.435Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024a"
+  },
+  "brandName": "Oriental Plastic Pants",
+  "yearFounded": 1970,
+  "headquarters": "Wardfort",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024b"
+  },
+  "brandName": "Refined Granite Towels",
+  "yearFounded": 1600,
+  "headquarters": "Lemkeland",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.442Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024c"
+  },
+  "brandName": "Corkery Inc",
+  "yearFounded": 1935,
+  "headquarters": "DuBuqueburgh",
+  "numberOfLocations": 9200,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.445Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024d"
+  },
+  "brandName": "Licensed Concrete Tuna",
+  "yearFounded": 1600,
+  "headquarters": "West Mylesboro",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66069ff93007b006635c024e"
+  },
+  "brandName": "Generic Cotton Pizza",
+  "yearFounded": 1600,
+  "headquarters": "North Ralphport",
+  "numberOfLocations": 1,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.452Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f169"
+  },
+  "brandName": "Elegant Metal Pants",
+  "yearFounded": 1852,
+  "headquarters": "Batzfurt",
+  "numberOfLocations": 4895,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.465Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.465Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f16b"
+  },
+  "brandName": "Ergonomic Metal Chair",
+  "yearFounded": 1725,
+  "headquarters": "Angelinaport",
+  "numberOfLocations": 7396,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.470Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f16d"
+  },
+  "brandName": "Fantastic Concrete Salad",
+  "yearFounded": 1686,
+  "headquarters": "East Antonetta",
+  "numberOfLocations": 1183,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.472Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f16f"
+  },
+  "brandName": "Tasty Steel Soap",
+  "yearFounded": 1979,
+  "headquarters": "Hirthefurt",
+  "numberOfLocations": 9574,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.475Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f171"
+  },
+  "brandName": "Fantastic Granite Hat",
+  "yearFounded": 1817,
+  "headquarters": "Codyland",
+  "numberOfLocations": 4250,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.477Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f173"
+  },
+  "brandName": "Ergonomic Steel Chicken",
+  "yearFounded": 1678,
+  "headquarters": "Malachitown",
+  "numberOfLocations": 9938,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.479Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f175"
+  },
+  "brandName": "Sleek Rubber Hat",
+  "yearFounded": 1937,
+  "headquarters": "Paradise",
+  "numberOfLocations": 2830,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.480Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.480Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f177"
+  },
+  "brandName": "Modern Frozen Hat",
+  "yearFounded": 1696,
+  "headquarters": "Aaliyahfield",
+  "numberOfLocations": 4763,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.481Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f179"
+  },
+  "brandName": "Practical Soft Pizza",
+  "yearFounded": 1875,
+  "headquarters": "Greggborough",
+  "numberOfLocations": 6950,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.484Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.484Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623cbb25edeab2858a9f17b"
+  },
+  "brandName": "Practical Frozen Bacon",
+  "yearFounded": 1875,
+  "headquarters": "Morarview",
+  "numberOfLocations": 8783,
+  "createdAt": {
+    "$date": "2024-04-20T14:05:38.486Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T14:05:38.486Z"
+  },
+  "__v": 0
+}]

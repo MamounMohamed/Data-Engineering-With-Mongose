@@ -16,7 +16,14 @@ export async function importData() {
     const brandsData = JSON.parse(jsonData);
 
     for (const brandData of brandsData) {
+      
       const id: string = brandData._id['$oid'];
+      const existingBrand = await Brand.findById(id);
+
+      if (existingBrand) {
+        console.log(`document already exists`);
+        continue;
+      }
       const transformedBrandName: string = brandData.brandName ?? (brandData.brand?.name ?? "Default Name");
       const transformedYear: number = transform(brandData.yearFounded ?? brandData.yearCreated ?? brandData.yearsFounded, minDate, maxDate);
       const transformedNumberOfLocations: number = transform(brandData.numberOfLocations?? 1, 1, Number.MAX_SAFE_INTEGER);
