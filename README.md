@@ -50,7 +50,6 @@ This project is a data engineering task aimed at transforming and extending a Mo
    ```bash
    node index.js
    
-
 ## Usage
 
 - **Data Transformation:** Run `importData.js` to transform the existing data and insert it to the database.
