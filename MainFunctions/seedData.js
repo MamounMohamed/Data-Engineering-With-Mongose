@@ -18,7 +18,7 @@ const brands_schema_1 = require("../Schema/brands-schema");
 const faker_1 = require("@faker-js/faker");
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
-const mongoDB = process.env.MONGODB_URI || "mongodb://localhost:27017/brands_database";
+const mongoDB = process.env.MONGODB_URI || "mongodb://localhost:27017/Mamoun_brands_database";
 const maxDate = new Date().getFullYear();
 function getRandomNumber(min, max) {
     const random = Math.random();
