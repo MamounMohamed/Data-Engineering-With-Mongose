@@ -14,8 +14,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.importData = void 0;
 const mongoose_1 = __importDefault(require("mongoose"));
-const brands_schema_1 = require("../Schema/brands-schema");
-const transformer_1 = require("../Filters/transformer");
+const brands_schema_1 = require("../models/brands-schema");
+const transformer_1 = require("../transformers/transformer");
 const promises_1 = require("fs/promises");
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();

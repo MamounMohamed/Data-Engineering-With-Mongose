@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { Brand } from '../Schema/brands-schema';
-import { transform } from '../Filters/transformer';
+import { Brand } from '../models/brands-schema';
+import { transform } from '../transformers/transformer';
 import { readFile } from 'fs/promises';
 import dotenv from 'dotenv';
 

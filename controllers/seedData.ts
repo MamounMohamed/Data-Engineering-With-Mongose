@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { Brand } from '../Schema/brands-schema';
+import { Brand } from '../models/brands-schema';
 import { faker } from '@faker-js/faker';
 import dotenv from 'dotenv';
 

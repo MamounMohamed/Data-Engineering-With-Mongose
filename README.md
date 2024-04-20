@@ -6,21 +6,23 @@ This project is a data engineering task aimed at transforming and extending a Mo
 
 ## Project Structure
 
-- **Collections**: Contains exported MongoDB collections.
+- **collections**: Contains exported MongoDB collections.
   - **brandsOriginal.json**: Original MongoDB collection data.
   - **brands_database.brands_transformation.json**: Transformed MongoDB collection data.
   - **brands_database.brands_seeded_and_transfromed.json**: Transformed and seeded MongoDB collection data.
 
-- **Filters**: Contains transformation logic used in the project.
-  - **Transformer.ts**: Transforming and validating number datatypes into the schema.
+- **transformers**: Contains transformation logic used in the project.
+  - **transformer.ts**: Transforming and validating number datatypes into the schema.
 
-- **MainFunctions**: Contains the business logic behind the implementation.
+- **controllers**: Contains the business logic behind the implementation.
    - **importData.ts**: Responsible for importing the data into the database following the schema rules and apply transformations.
    - **seedData.ts**: Responsible for seeding and generating new data following the database schema
 
 
-- **Schema**: Contains database schema definitions.
+- **models**: Contains database schema definitions.
   - **brands-schema.ts**: Define the brand model and brand model schema
+
+- **index.ts** : Main application starting point
   
   ## Installation
 

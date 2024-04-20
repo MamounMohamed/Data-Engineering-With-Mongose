@@ -1,5 +1,5 @@
-import { importData } from "./MainFunctions/importData";
-import { generateSeedData } from "./MainFunctions/seedData";
+import { importData } from "./controllers/importData";
+import { generateSeedData } from "./controllers/seedData";
 
 async function main() {
   try{

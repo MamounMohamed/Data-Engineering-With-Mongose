@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const importData_1 = require("./MainFunctions/importData");
-const seedData_1 = require("./MainFunctions/seedData");
+const importData_1 = require("./controllers/importData");
+const seedData_1 = require("./controllers/seedData");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
