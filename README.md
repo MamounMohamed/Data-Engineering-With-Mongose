@@ -40,15 +40,15 @@ This project is a data engineering task aimed at transforming and extending a Mo
    npm install
    
 4. **Configure MongoDB connection:**
-   Update the `.env` file in the root directory of the project with your MongoDB connection string: if not it will create a new database with the name Mamoun_brands_database which
+  -Update the `.env` file in the root directory of the project with your MongoDB connection string: if not it will create a new database with the name Mamoun_brands_database which
 
 
 5. **Run the project:**
+   -This will Transform , import , and seed the data into the database 
 
    ```bash
    node index.js
    
-   //This will Transform , import , and seed the data into the database 
 
 ## Usage
 
