@@ -1,4 +1,4 @@
-# Project Name
+# Data Engineering Task 
 
 ## Description
 
@@ -21,6 +21,32 @@ This project is a data engineering task aimed at transforming and extending a Mo
 
 - **Schema**: Contains database schema definitions.
   - **brands-schema.ts**: Define the brand model and brand model schema
+  ## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/MamounMohamed/Data-Engineering-With-Mongose.git```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd yourproject```
+   
+3. **Install dependencies:**
+
+   ```bash
+   npm install```
+4. **Configure MongoDB connection:**
+
+   Update the `mongoDB` variable in `importData.ts` and `seedData.ts` with your MongoDB connection string.
+5. **Run the project:**
+
+   ```bash
+   npm start
+```
+
+
 
 ## Usage
 
