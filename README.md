@@ -50,11 +50,6 @@ This project is a data engineering task aimed at transforming and extending a Mo
    ```bash
    node index.js
    
-## Usage
-
-- **Data Transformation:** Run `importData.js` to transform the existing data and insert it to the database.
-- **Data Seeding:** Run `seedData.js` to generate and insert new seed data into the MongoDB database.
-
 ## Dependencies
 
 - [mongoose](https://www.npmjs.com/package/mongoose): MongoDB object modeling for Node.js.
