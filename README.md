@@ -26,28 +26,24 @@ This project is a data engineering task aimed at transforming and extending a Mo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/MamounMohamed/Data-Engineering-With-Mongose.git```
+   git clone https://github.com/MamounMohamed/Data-Engineering-With-Mongose.git
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd yourproject```
+   cd yourproject
    
 3. **Install dependencies:**
 
    ```bash
-   npm install```
+   npm install
 4. **Configure MongoDB connection:**
-
    Update the `mongoDB` variable in `importData.ts` and `seedData.ts` with your MongoDB connection string.
+
 5. **Run the project:**
 
    ```bash
    npm start
-```
-
-
-
 ## Usage
 
 - **Data Transformation:** Run `importData.ts` to transform the existing data in the MongoDB database.
