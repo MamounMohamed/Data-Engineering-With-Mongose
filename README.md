@@ -46,7 +46,7 @@ This project is a data engineering task aimed at transforming and extending a Mo
 5. **Run the project:**
 
    ```bash
-   npm start
+   node index.js
 ## Usage
 
 - **Data Transformation:** Run `importData.ts` to transform the existing data in the MongoDB database.
