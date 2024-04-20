@@ -24,6 +24,7 @@ function importData() {
     return __awaiter(this, void 0, void 0, function* () {
         var _a, _b, _c, _d, _e, _f, _g, _h;
         try {
+            // Connect to MongoDB
             yield mongoose_1.default.connect(mongoDB);
             // Read the JSON file
             const jsonData = yield (0, promises_1.readFile)('./Collections/brandsOriginal.json', 'utf8');
@@ -32,7 +33,7 @@ function importData() {
                 const id = brandData._id['$oid'];
                 const existingBrand = yield brands_schema_1.Brand.findById(id);
                 if (existingBrand) {
-                    console.log(`document already exists`);
+                    console.log(`Document with ID ${id} already exists`);
                     continue;
                 }
                 const transformedBrandName = (_a = brandData.brandName) !== null && _a !== void 0 ? _a : ((_c = (_b = brandData.brand) === null || _b === void 0 ? void 0 : _b.name) !== null && _c !== void 0 ? _c : "Default Name");
@@ -55,7 +56,8 @@ function importData() {
             console.error('Error importing data:', error);
         }
         finally {
-            mongoose_1.default.disconnect();
+            // Disconnect from MongoDB
+            yield mongoose_1.default.disconnect();
         }
     });
 }

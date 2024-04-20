@@ -16,7 +16,7 @@ export function transform(data : unknown , minAllowed : number , maxAllowed : nu
     }
     
         if (typeof data === "string") {
-            const parsedNumber = parseInt(data, 10); // Use parseInt to parse the string to an integer
+            const parsedNumber : number = parseInt(data, 10); // Use parseInt to parse the string to an integer
             if (!isNaN(parsedNumber) && Number.isInteger(parsedNumber) && isFinite(parsedNumber)) {
                 return checkAndReturn(parsedNumber, minAllowed, maxAllowed);
             }

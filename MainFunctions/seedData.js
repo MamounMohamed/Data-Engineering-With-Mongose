@@ -19,16 +19,15 @@ const faker_1 = require("@faker-js/faker");
 const mongoDB = "mongodb://localhost:27017/brands_database";
 const maxDate = new Date().getFullYear();
 function getRandomNumber(min, max) {
-    // Generate a random number between 0 and 1
     const random = Math.random();
-    // Scale the random number to fit the specified range
     return Math.floor(random * (max - min + 1)) + min;
 }
-// Function to generate seed data for multiple brand documents
 function generateSeedData(count) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
+            // Connect to MongoDB
             yield mongoose_1.default.connect(mongoDB);
+            // Generate seed data and save to database
             for (let i = 0; i < count; i++) {
                 const brand = new brands_schema_1.Brand({
                     brandName: faker_1.faker.commerce.productName(),
@@ -39,9 +38,11 @@ function generateSeedData(count) {
                 yield brand.save();
             }
             console.log("Seed data inserted successfully");
+            // Disconnect from MongoDB
+            yield mongoose_1.default.disconnect();
         }
         catch (error) {
-            console.log("Error Connecting to MongoDB");
+            console.error("Error connecting to MongoDB:", error);
         }
     });
 }
